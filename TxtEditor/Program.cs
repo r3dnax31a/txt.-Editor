@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using TxtEditorBL;
+using MessageService;
 
 namespace TxtEditor
 {
@@ -16,7 +15,14 @@ namespace TxtEditor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+
+            MainForm mainForm = new MainForm();
+            FileManager fileManager = new FileManager();
+            MessageServicecl messageServicecl = new MessageServicecl();
+
+            MainPresenter mainPresenter = new MainPresenter(mainForm, fileManager, messageServicecl);
+
+            Application.Run(mainForm);
         }
     }
 }

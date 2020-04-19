@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxtEditor", "TxtEditor\TxtE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxtEditorBL", "TxtEditorBL\TxtEditorBL.csproj", "{43CE36DD-02BD-40BD-B4E4-F8D56A5ACAEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "MessageService\MessageService.csproj", "{E2B9DAB7-2887-458C-8FCD-CF525007BC6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43CE36DD-02BD-40BD-B4E4-F8D56A5ACAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43CE36DD-02BD-40BD-B4E4-F8D56A5ACAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43CE36DD-02BD-40BD-B4E4-F8D56A5ACAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B9DAB7-2887-458C-8FCD-CF525007BC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B9DAB7-2887-458C-8FCD-CF525007BC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B9DAB7-2887-458C-8FCD-CF525007BC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B9DAB7-2887-458C-8FCD-CF525007BC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
